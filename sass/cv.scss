@@ -1,0 +1,604 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+   background-image: url("/images/background/christmas-2942305_1280.jpg");
+   background-attachment: fixed;
+    background-size: auto;
+}
+ .container {
+     
+        width: 90%;
+    }
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: -15px;
+   
+}
+
+.navbar {
+   
+    margin-bottom: 20px;
+
+}
+#initials {
+    color: white;
+    // text-align: center;
+   //  margin-top: -75px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-family: 'Quattrocento', serif;
+    letter-spacing: 0.05em;
+    }
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.bg-dark {
+    background-color: black !important;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+    margin-right: 15px;
+}
+.navbar-dark .navbar-toggler {
+    border: 2px dotted goldenrod;
+}
+button:focus {
+    outline: none;
+}
+.navbar {
+    padding: .5rem 0;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+
+.book {
+    .d-bloc {
+    display: flex !important;
+}
+}
+.bookplusheadline {
+    display: flex;
+}
+.carousel {
+    margin-bottom: 10px;
+   img {
+       margin-left: auto;
+        margin-right: auto;
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+        border-bottom-left-radius: calc(.25rem - 1px);
+        border-bottom-right-radius: calc(.25rem - 1px);
+   } 
+}
+
+.skill, .portfolio {
+    
+   // background-image: url("/images/background/christmas-3010831_640.png");
+    p {
+        color: white;
+        font-size: 1em;
+    }
+    h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        font-weight: 600;
+        font-family: 'Quattrocento', serif;
+        margin-top: 15px;
+        letter-spacing: 0.05em;
+    }
+   
+}
+.portfolio {
+    margin-left: 5%;
+    margin-right: 5%;
+
+    h3 {
+        text-align: center;
+        text-transform: uppercase;
+       // font-size: 1.4em;
+       // font-weight: 600;
+        font-family: 'Quattrocento', serif;
+        margin-top: 15px;
+        letter-spacing: 0.05em;
+    }
+}
+
+.first {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 30px;
+
+    p {
+    text-shadow: 1px 1px 2px #000000;
+    }
+}
+.second {
+    border-bottom: 1px solid lightgray;
+
+    p {
+    text-shadow: 1px 1px 2px #000000;
+    }
+}
+.lines {
+        color: goldenrod;
+        font-weight: 600;
+    }
+
+
+// contact
+
+#contact {
+   
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    h2 {
+        font-family: 'Quattrocento', serif;
+        margin-top: 15px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    
+}
+
+#copy {
+    position: relative;
+    bottom: 0;
+    background: white;
+    padding: 5px 5px;
+    text-align: center;
+    color: darkgray;
+    p {
+        margin-bottom: 0;
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+}
+.card-deck {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 20px;
+
+    .card {
+        border: none;
+        width: 250px;
+    }
+}
+
+
+    .card-img-top {
+        border-bottom-left-radius: calc(.25rem - 1px);
+        border-bottom-right-radius: calc(.25rem - 1px);
+    }
+
+.card-body {
+    display: none;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card {
+  margin: 10px;
+   width: 150px;
+   background-color: black;
+}
+
+// OVO JE ZA PORTFOLIO STRANICU
+
+.sites {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    h3 {
+        margin-left: 5%;
+         font-family: 'Quattrocento', serif;
+         color: black;
+         text-transform: uppercase;
+         font-size: 1.5em;
+         font-weight: 600;
+          letter-spacing: 0.05em;
+    }
+    p {
+        margin-left: 5%;
+         font-family: 'Quattrocento', serif;
+         color: white;
+         text-shadow: 1px 1px 2px #000000;
+         font-size: 1.2em;
+    }
+    .port-images {
+    .mob {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .desk {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    }
+}
+
+// OVO ZA ABOUT STRANICU
+
+    #target {
+         font-weight: 600;
+        margin-top: 30px;
+        color: white;
+        text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000;
+        text-align: center;
+        font-size: 1.1em;
+        p {
+       // color: white;
+       // text-shadow: 1px 1px 2px #000000;
+      
+    }
+    }
+
+    .phototext {
+        display: flex;
+        justify-content: center;
+        li {
+            color: white;
+            font-weight: 600;
+             text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000;
+             list-style-type: square;
+        }
+        
+    }
+         .me {
+           width: 300px;
+
+           img {
+               border-bottom-left-radius: calc(.25rem - 1px);
+               border-bottom-right-radius: calc(.25rem - 1px);
+           }
+       }
+
+       #about {
+           h3 {
+               font-family: 'Quattrocento', serif;
+               color: white;
+               text-align: center;
+               text-transform: uppercase;
+               font-size: 1.4em;
+               letter-spacing: 0.05em;
+               margin-top: 40px;
+               margin-bottom: 20px;
+               text-shadow: 2px 2px 4px #000000;
+           }
+       }
+
+
+/*
+       html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+*/
+#wrapper {
+   min-height: 100%;
+   position: relative;
+ 
+}
+ 
+.about-cont {
+    
+    padding-bottom: 160px;   /* Height of the footer */
+}
+.footer {
+
+    position:absolute;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height: 160px;   /* Height of the footer */
+       }
+
+// OVO ZA CONTACT STRANICU
+
+.row {
+    justify-content: center;
+}
+#form_container {
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.form-control:focus, input[type="text"]:focus, input[type="email"]:focus {
+    border-color: goldenrod;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px goldenrod;
+    outline: 0 none;
+       }
+
+label {
+    font-weight: 600;
+}
+
+.submit-contact {
+    margin-bottom: 30px;
+}
+
+.contact-button:hover {
+    box-shadow: 0 1px 1px white inset, 0 0 8px white !important;
+    background-color: goldenrod !important;
+    border-color: white !important;
+    box-shadow: 0 1px 1px white inset, 0 0 8px white !important;
+    outline: 0 none !important;
+}
+.contact-button:active {
+    background-color: gray !important;
+    border-color: white !important;
+}
+
+.contact-button:focus {
+    box-shadow: 0 1px 1px white inset, 0 0 8px white !important;
+    outline: 0 none !important;
+    background-color: goldenrod;
+}
+
+.contact-button {
+    background-color: goldenrod;
+    border-color: gold;
+    color: white;
+}
+
+.contact-form {
+   .contact-button {
+       padding: .375rem .99rem;
+   }
+}
+
+#form_container {
+    h3 {
+        font-family: 'Quattrocento', serif;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.3em;
+        letter-spacing: 0.05em;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    p {
+        color: white;
+        font-size: 1.3em;
+        text-align: center;
+        text-shadow: 1px 1px 4px #000000, 1px 1px 4px #000000;
+    }
+}
+
+@media (min-width: 400px) {
+        .me {
+           width: 250px;
+       }
+       #about {
+           li {
+               font-size: 1.2em;
+           }
+           h3 {
+            font-size: 1.6em;
+            margin-bottom: 30px;
+        }
+       }
+       }
+
+
+@media (min-width: 576px) {
+    .container {
+        width: 70%;
+    }
+
+    .card-deck {
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+    .sites {
+        width: 80%;
+        .port-images {
+    display: flex;
+    .desk {
+       
+        margin-right: 0;
+    }
+}
+}
+  
+    .bookmarks, .bookcover {
+        width: 187px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about {
+        h3 {
+            font-size: 1.8em;
+        }
+    }
+    .me {
+           width: 250px;
+           margin-right: 20px;
+       }
+    
+}
+
+@media (min-width: 768px) {
+ #about {
+   //  margin-bottom: 200px;
+        h3 {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+    }
+    .me {
+          
+           margin-right: 40px;
+       }
+    
+    form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .btn-primary {
+     margin-left: 10%;
+}
+#contact-form {
+    h3 {
+        font-size: 2.4em;
+    }
+}
+}
+
+@media (min-width: 800px) {
+  
+    .skill {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        h3 {
+            font-size: 1.5em;
+        }
+    }
+    .portfolio {
+       h3 {
+            font-size: 1.5em;
+        }
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-deck {
+       width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .phototext {
+        ul {
+            width: 200px;
+        }
+    }
+}
+
+
+
+@media (min-width: 980px) {
+   
+    #navbarNav {
+         justify-content: flex-end;
+    }
+    .navbar-nav {
+        margin-right: 10px;
+    }
+    .sites {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .card-deck {
+      width: 777px;
+    }
+    .sites {
+        width: 60%;
+    }
+    .navbar-nav {
+        margin-right: 20px;
+    }
+
+    form {
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+    .btn-primary {
+     margin-left: 22%;
+}
+}
+@media (min-width: 1280px) {
+
+
+    #about {
+        li {
+            font-size: 1.3em;
+        }
+    }
+    .skill {
+        p {
+            font-size: 1.1em;
+            padding: 1.1em 0;
+        }
+    }
+    .card-deck {
+        .card {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+
+    .two {
+        margin-top: 40px;
+    }
+
+   form {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .btn-primary {
+     margin-left: 25%;
+}
+#contact-form {
+    h3 {
+        font-size: 3em;
+    }
+}
+
+#target {
+    font-size: 1.3em;
+    p {
+        padding: 0 100px;
+        font-size: 1.05em;
+    }
+}
+    }
+
+@media (min-width: 1920px) {
+   form {
+       
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .btn-primary {
+     margin-left: 20%;
+}
+#contact-form {
+    margin-top: 60px;
+}
+    }
