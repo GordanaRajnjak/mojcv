@@ -6,8 +6,12 @@ html, body {
 }
 
 body {
-   background-image: url("/images/background/christmas-2942305_1280.jpg");
-   background-attachment: fixed;
+   background: url("/images/background/christmas-2942305_1280.jpg") no-repeat fixed;
+  // background-attachment: fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   
 }
  .container {
@@ -19,7 +23,7 @@ body {
     width: 60px;
     height: 60px;
     margin-left: -15px;
-   
+   border: 2px red;
 }
 
 .navbar {
