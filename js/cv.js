@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 
 $('.skill').on('click', function() {
