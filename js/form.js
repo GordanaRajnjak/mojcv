@@ -5,7 +5,7 @@ $(function()
     {
         if(data.result == 'success')
         {
-            $('form#reused_form').hide();
+            $('form#contact-form').hide();
             $('#success_message').show();
             $('#error_message').hide();
         }
@@ -36,7 +36,7 @@ $(function()
         }//else
     }
 
-	$('#reused_form').submit(function(e)
+	$('#contact-form').submit(function(e)
       {
         e.preventDefault();
 
@@ -47,13 +47,13 @@ $(function()
             $btn = $(this);
             $btn.prop('type','button' ); 
             $btn.prop('orig_label',$btn.text());
-            $btn.text('Sending ...');
+            $btn.text('Sending...');
         });
         
 
                     $.ajax({
                 type: "POST",
-                url: 'handler.php',
+                url: 'send.php',
                 data: $form.serialize(),
                 success: after_form_submitted,
                 dataType: 'json' 
