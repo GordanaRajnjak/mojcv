@@ -46,7 +46,7 @@
         <a class="nav-link" href="about.html">Skills</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="formpage.html">Contact</a>
+        <a class="nav-link" href="formpage.php">Contact</a>
       </li>
     </ul>
   </div>
@@ -58,7 +58,7 @@
     <div class="col-md-offset-3" id="form_container">
         <h3>Contact Me</h2> 
         <p> Please send your message below. I'll get back to you at the earliest! </p>
-        <form role="form" method="post" action="send.php">
+        <form role="form" method="post" action="send.php" id="contact-form">
             <div class="row">
                 <div class="col-sm-12 form-group">
                     <label for="message"> Message:</label>
@@ -82,7 +82,7 @@
             </div>
         </form>
         <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
-        <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+        <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3>Sorry there was an error sending your form.</div>
     </div>
 </div>
 
@@ -110,7 +110,7 @@ copyright
        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>     
-       
+       <script src="js/form.js"></script>
         
     </body>
 </html>
