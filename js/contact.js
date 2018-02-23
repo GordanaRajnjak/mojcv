@@ -1,8 +1,10 @@
 
 
-$('.submit-contact').on('click', function() {
+$('#submit-contact').on('click', function() {
 
- // $(this).css({"background-color":"gray"});
+$.get("send.php", function(data){
+    $('#success_message h3').html(data);
+});
 
 })
 
