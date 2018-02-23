@@ -77,11 +77,11 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 form-group contact-form">
-                    <button type="submit" class="btn contact-button btn-lg btn-default pull-right" >Send &rarr;</button>
+                    <button type="submit" id="submit-contact" class="btn contact-button btn-lg btn-default pull-right" >Send &rarr;</button>
                 </div>
             </div>
         </form>
-        <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
+        <div id="success_message" style="width:100%; height:100%; display:none; "> <h3></h3> </div>
         <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3>Sorry there was an error sending your form.</div>
     </div>
 </div>
@@ -110,7 +110,7 @@ copyright
        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>     
-      <!-- <script src="/js/form.js"></script> -->
+      <!--  <script src="/js/contact.js"></script> -->
         
     </body>
 </html>
