@@ -8,7 +8,10 @@ html, body {
 
 body {
    background: url("/images/background/christmas-2942305_1280.jpg") no-repeat fixed;
-   transform: translate3d(0,0,0);  
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
  .container {
      
