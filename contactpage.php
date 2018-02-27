@@ -19,6 +19,9 @@
 
 <body>
 
+<div id="bug-fix">
+</div>    
+
 <div id="wrapper">
 
 <div class="container about-cont">
