@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-$(document).ready(function() {
 
-$('.skill').on('click', function() {
-
-   $(this).toggleClass('active');
-   var liid = $(this).attr('id');
-console.log(liid)
-   $('#target').load('skillNotes.html #' + liid);
-})
-=======
-
+// LOAD SKILLS ON CLICK
 
 $(document).ready(function() {
 
@@ -20,5 +10,20 @@ $('.skill').on('click', function() {
 console.log(liid)
    $('#target').load('skillNotes.html #' + liid);
 })
->>>>>>> fcd9dac0394035aba0eeb32eaa7ac4cbba4aa161
 })
+
+
+
+// CAROUSEL SWIPE
+
+$(".carousel").swipe({
+
+  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+    if (direction == 'left') $(this).carousel('next');
+    if (direction == 'right') $(this).carousel('prev');
+
+  },
+  allowPageScroll:"vertical"
+
+});
