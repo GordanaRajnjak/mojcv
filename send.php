@@ -43,8 +43,10 @@ try {
 
     $mail->send();
 
-    header("location: contactpage.php");
+    header("location: success.html");
    // echo 'Message has been sent';
 } catch (Exception $e) {
+
+  header("location: fail.html");
   //  echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 }
