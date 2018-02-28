@@ -98,8 +98,11 @@ button:focus {
     
    // background-image: url("/images/background/christmas-3010831_640.png");
     p {
-        color: white;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 2;
         font-size: 1em;
+        text-align: justify;
     }
     h3 {
         text-align: center;
@@ -132,17 +135,11 @@ button:focus {
     border-bottom: 1px solid lightgray;
     margin-top: 30px;
 
-    p {
-    text-shadow: 1px 1px 2px #000000;
-    }
 }
 .second {
     border-bottom: 1px solid lightgray;
-
-    p {
-    text-shadow: 1px 1px 2px #000000;
-    }
 }
+
 .lines {
         color: goldenrod;
         font-weight: 600;
@@ -229,7 +226,7 @@ h4 {
     margin-top: 30px;
     h3 {
         margin-left: 5%;
-         font-family: 'Quattrocento', serif;
+          font-family: 'Quattrocento', serif;
          color: black;
          text-transform: uppercase;
          font-size: 1.5em;
@@ -238,10 +235,11 @@ h4 {
     }
     p {
         margin-left: 5%;
-         font-family: 'Quattrocento', serif;
-         color: white;
-         text-shadow: 1px 1px 2px #000000;
-         font-size: 1.2em;
+        
+         color: black;
+        font-weight: 600;
+        letter-spacing: 2;
+         font-size: 1em;
     }
     .port-images {
     .mob {
@@ -261,11 +259,12 @@ h4 {
 
     #target {
          font-weight: 600;
-        margin-top: 30px;
-        color: white;
-        text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000;
+        margin-top: 10px;
+        color: black;
+         font-size: 1em;
+          letter-spacing: 2;
         text-align: center;
-        font-size: 1.1em;
+      
         p {
        // color: white;
        // text-shadow: 1px 1px 2px #000000;
@@ -277,9 +276,10 @@ h4 {
         display: flex;
         justify-content: center;
         li {
-            color: white;
-            font-weight: 600;
-             text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000;
+            color: black;
+           font-weight: 600;
+             
+             letter-spacing: 2;
              list-style-type: square;
         }
         
@@ -299,7 +299,7 @@ h4 {
                color: white;
                text-align: center;
                text-transform: uppercase;
-               font-size: 1.4em;
+              
                letter-spacing: 0.05em;
                margin-top: 40px;
                margin-bottom: 20px;
@@ -418,7 +418,7 @@ label {
                font-size: 1.2em;
            }
            h3 {
-            font-size: 1.6em;
+            font-size: 2.3em;
             margin-bottom: 30px;
         }
        }
@@ -453,7 +453,7 @@ label {
 
     #about {
         h3 {
-            font-size: 1.8em;
+            font-size: 2.3em;
         }
     }
     .me {
@@ -467,7 +467,7 @@ label {
  #about {
    //  margin-bottom: 200px;
         h3 {
-            font-size: 2em;
+          
             margin-bottom: 40px;
         }
     }
@@ -574,6 +574,7 @@ label {
         p {
             font-size: 1.1em;
             padding: 1.1em 0;
+            letter-spacing: 2.5;
         }
     }
     .card-deck {
@@ -601,10 +602,27 @@ label {
 }
 
 #target {
-    font-size: 1.3em;
+    margin-top: 30px;
     p {
-        padding: 0 100px;
-        font-size: 1.05em;
+        padding: 0 200px;
+        font-size: 1.1em;
+        letter-spacing: 2.5;
+    }
+}
+.sites {
+    margin-top: 80px;
+    
+    p {
+        font-size: 1.1em;
+        letter-spacing: 2.5;
+    }
+}
+
+#form_container {
+    p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 1.6em;
     }
 }
     }
