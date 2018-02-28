@@ -111,10 +111,13 @@ button:focus {
 
 /* line 100, ../sass/cv.scss */
 .skill p, .portfolio p {
-  color: white;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 2;
   font-size: 1em;
+  text-align: justify;
 }
-/* line 104, ../sass/cv.scss */
+/* line 107, ../sass/cv.scss */
 .skill h3, .portfolio h3 {
   text-align: center;
   text-transform: uppercase;
@@ -125,12 +128,12 @@ button:focus {
   letter-spacing: 0.05em;
 }
 
-/* line 115, ../sass/cv.scss */
+/* line 118, ../sass/cv.scss */
 .portfolio {
   margin-left: 5%;
   margin-right: 5%;
 }
-/* line 119, ../sass/cv.scss */
+/* line 122, ../sass/cv.scss */
 .portfolio h3 {
   text-align: center;
   text-transform: uppercase;
@@ -139,33 +142,25 @@ button:focus {
   letter-spacing: 0.05em;
 }
 
-/* line 130, ../sass/cv.scss */
+/* line 133, ../sass/cv.scss */
 .first {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   margin-top: 30px;
-}
-/* line 135, ../sass/cv.scss */
-.first p {
-  text-shadow: 1px 1px 2px #000000;
 }
 
 /* line 139, ../sass/cv.scss */
 .second {
   border-bottom: 1px solid lightgray;
 }
-/* line 142, ../sass/cv.scss */
-.second p {
-  text-shadow: 1px 1px 2px #000000;
-}
 
-/* line 146, ../sass/cv.scss */
+/* line 143, ../sass/cv.scss */
 .lines {
   color: goldenrod;
   font-weight: 600;
 }
 
-/* line 154, ../sass/cv.scss */
+/* line 151, ../sass/cv.scss */
 #contact {
   background-color: black;
   color: white;
@@ -173,7 +168,7 @@ button:focus {
   padding: 15px 0;
   margin-top: 30px;
 }
-/* line 161, ../sass/cv.scss */
+/* line 158, ../sass/cv.scss */
 #contact h2 {
   font-family: 'Quattrocento', serif;
   margin-top: 15px;
@@ -182,7 +177,7 @@ button:focus {
   font-size: 1.2em;
 }
 
-/* line 171, ../sass/cv.scss */
+/* line 168, ../sass/cv.scss */
 #copy {
   position: relative;
   bottom: 0;
@@ -191,14 +186,14 @@ button:focus {
   text-align: center;
   color: darkgray;
 }
-/* line 178, ../sass/cv.scss */
+/* line 175, ../sass/cv.scss */
 #copy p {
   margin-bottom: 0;
   font-size: 0.7em;
   font-weight: 600;
 }
 
-/* line 184, ../sass/cv.scss */
+/* line 181, ../sass/cv.scss */
 .card-deck {
   flex-direction: row;
   margin-left: auto;
@@ -206,43 +201,43 @@ button:focus {
   justify-content: center;
   margin-top: 20px;
 }
-/* line 191, ../sass/cv.scss */
+/* line 188, ../sass/cv.scss */
 .card-deck .card {
   border: none;
   width: 250px;
 }
 
-/* line 198, ../sass/cv.scss */
+/* line 195, ../sass/cv.scss */
 .card-img-top {
   border-bottom-left-radius: calc(.25rem - 1px);
   border-bottom-right-radius: calc(.25rem - 1px);
 }
 
-/* line 203, ../sass/cv.scss */
+/* line 200, ../sass/cv.scss */
 .card-body {
   display: none;
 }
 
-/* line 207, ../sass/cv.scss */
+/* line 204, ../sass/cv.scss */
 h4 {
   font-size: 1em;
 }
 
-/* line 211, ../sass/cv.scss */
+/* line 208, ../sass/cv.scss */
 .image {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 
-/* line 216, ../sass/cv.scss */
+/* line 213, ../sass/cv.scss */
 .card {
   margin: 10px;
   width: 150px;
   background-color: black;
 }
 
-/* line 224, ../sass/cv.scss */
+/* line 221, ../sass/cv.scss */
 .sites {
   width: 90%;
   margin-left: auto;
@@ -250,7 +245,7 @@ h4 {
   margin-bottom: 30px;
   margin-top: 30px;
 }
-/* line 230, ../sass/cv.scss */
+/* line 227, ../sass/cv.scss */
 .sites h3 {
   margin-left: 5%;
   font-family: 'Quattrocento', serif;
@@ -260,47 +255,47 @@ h4 {
   font-weight: 600;
   letter-spacing: 0.05em;
 }
-/* line 239, ../sass/cv.scss */
+/* line 236, ../sass/cv.scss */
 .sites p {
   margin-left: 5%;
-  font-family: 'Quattrocento', serif;
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-  font-size: 1.2em;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 2;
+  font-size: 1em;
 }
-/* line 247, ../sass/cv.scss */
+/* line 245, ../sass/cv.scss */
 .sites .port-images .mob {
   max-width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
 }
-/* line 253, ../sass/cv.scss */
+/* line 251, ../sass/cv.scss */
 .sites .port-images .desk {
   margin-left: 5%;
   margin-right: 5%;
 }
 
-/* line 262, ../sass/cv.scss */
+/* line 260, ../sass/cv.scss */
 #target {
   font-weight: 600;
-  margin-top: 30px;
-  color: white;
-  text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000;
+  margin-top: 10px;
+  color: black;
+  font-size: 1em;
+  letter-spacing: 2;
   text-align: center;
-  font-size: 1.1em;
 }
 
-/* line 276, ../sass/cv.scss */
+/* line 275, ../sass/cv.scss */
 .phototext {
   display: flex;
   justify-content: center;
 }
-/* line 279, ../sass/cv.scss */
+/* line 278, ../sass/cv.scss */
 .phototext li {
-  color: white;
+  color: black;
   font-weight: 600;
-  text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000;
+  letter-spacing: 2;
   list-style-type: square;
 }
 
@@ -320,7 +315,6 @@ h4 {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.4em;
   letter-spacing: 0.05em;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -451,7 +445,7 @@ label {
   }
   /* line 420, ../sass/cv.scss */
   #about h3 {
-    font-size: 1.6em;
+    font-size: 2.3em;
     margin-bottom: 30px;
   }
 }
@@ -489,7 +483,7 @@ label {
 
   /* line 455, ../sass/cv.scss */
   #about h3 {
-    font-size: 1.8em;
+    font-size: 2.3em;
   }
 
   /* line 459, ../sass/cv.scss */
@@ -501,7 +495,6 @@ label {
 @media (min-width: 768px) {
   /* line 469, ../sass/cv.scss */
   #about h3 {
-    font-size: 2em;
     margin-bottom: 40px;
   }
 
@@ -626,58 +619,77 @@ label {
   .skill p {
     font-size: 1.1em;
     padding: 1.1em 0;
+    letter-spacing: 2.5;
   }
 
-  /* line 580, ../sass/cv.scss */
+  /* line 581, ../sass/cv.scss */
   .card-deck .card {
     margin-right: 20px;
     margin-left: 20px;
   }
 
-  /* line 586, ../sass/cv.scss */
+  /* line 587, ../sass/cv.scss */
   .two {
     margin-top: 40px;
   }
 
-  /* line 590, ../sass/cv.scss */
+  /* line 591, ../sass/cv.scss */
   form {
     margin-left: 25%;
     margin-right: 25%;
   }
 
-  /* line 594, ../sass/cv.scss */
+  /* line 595, ../sass/cv.scss */
   .btn-primary {
     margin-left: 25%;
   }
 
-  /* line 598, ../sass/cv.scss */
+  /* line 599, ../sass/cv.scss */
   #contact-form h3 {
     font-size: 3em;
   }
 
-  /* line 603, ../sass/cv.scss */
+  /* line 604, ../sass/cv.scss */
   #target {
-    font-size: 1.3em;
+    margin-top: 30px;
   }
-  /* line 605, ../sass/cv.scss */
+  /* line 606, ../sass/cv.scss */
   #target p {
-    padding: 0 100px;
-    font-size: 1.05em;
+    padding: 0 200px;
+    font-size: 1.1em;
+    letter-spacing: 2.5;
+  }
+
+  /* line 612, ../sass/cv.scss */
+  .sites {
+    margin-top: 80px;
+  }
+  /* line 615, ../sass/cv.scss */
+  .sites p {
+    font-size: 1.1em;
+    letter-spacing: 2.5;
+  }
+
+  /* line 622, ../sass/cv.scss */
+  #form_container p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.6em;
   }
 }
 @media (min-width: 1920px) {
-  /* line 613, ../sass/cv.scss */
+  /* line 631, ../sass/cv.scss */
   form {
     margin-left: 20%;
     margin-right: 20%;
   }
 
-  /* line 618, ../sass/cv.scss */
+  /* line 636, ../sass/cv.scss */
   .btn-primary {
     margin-left: 20%;
   }
 
-  /* line 621, ../sass/cv.scss */
+  /* line 639, ../sass/cv.scss */
   #contact-form {
     margin-top: 60px;
   }
