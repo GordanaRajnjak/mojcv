@@ -96,7 +96,7 @@ button:focus {
 
 .skill, .portfolio {
     
-   // background-image: url("/images/background/christmas-3010831_640.png");
+  
     p {
         color: black;
         font-weight: 600;
@@ -115,6 +115,7 @@ button:focus {
     }
    
 }
+
 .portfolio {
     margin-left: 5%;
     margin-right: 5%;
@@ -275,10 +276,14 @@ h4 {
     .phototext {
         display: flex;
         justify-content: center;
+        ul {
+            width: 50%;
+        }
+
         li {
             color: black;
            font-weight: 600;
-             width: 200px;
+             width: 100px;
              letter-spacing: 2;
              list-style-type: square;
         }
@@ -317,6 +322,7 @@ body {
 }
 */
 #wrapper {
+    width: 100%;
    min-height: 100%;
    position: relative;
  
@@ -492,8 +498,11 @@ label {
 
 @media (min-width: 800px) {
   
+     .first, .second {
+         width: 500px;
+     }
     .skill {
-        width: 200px;
+       
         margin-left: auto;
         margin-right: auto;
         
