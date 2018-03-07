@@ -59,7 +59,7 @@
       
 <div class="row">
     <div class="col-md-offset-3" id="form_container">
-        <h3>Contact Me</h2> 
+        <h3>Contact Me <span class="lines">//</span></h2> 
         <p> Please send your message below. I'll get back to you at the earliest! </p>
         <form role="form" method="post" action="send.php" id="contact-form">
             <div class="row">
