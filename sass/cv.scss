@@ -6,7 +6,16 @@ html, body {
     height: 100%;
 
 }
+body {
+    
+background: url("/images/background/shisharkasrednja.jpeg");
+background-attachment: fixed;
+background-position: left top;
+   opacity: 0.9;
+   background-repeat: no-repeat;
+}
 
+/*
 #bug-fix {
    background: url("/images/background/shisharkasrednja.jpeg");
    opacity: 0.9;
@@ -17,6 +26,7 @@ html, body {
   top: -100px;
   bottom: -100px;
 }
+*/
 
  .container {
      
@@ -473,8 +483,12 @@ label {
 
 @media (min-width: 768px) {
 
-    #bug-fix {
+    body {
    background: url("/images/background/shisharka.jpeg");
+   background-attachment: fixed;
+background-position: left top;
+   opacity: 0.9;
+   background-repeat: no-repeat;
     }
 
  #about {
@@ -644,8 +658,12 @@ label {
     }
 
 @media (min-width: 1600px) {
-    #bug-fix {
+    body {
    background: url("/images/background/shisharka3.jpg");
+   background-attachment: fixed;
+background-position: left top;
+   opacity: 0.9;
+   background-repeat: no-repeat;
     }
 }
 
