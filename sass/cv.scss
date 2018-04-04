@@ -6,30 +6,23 @@ html, body {
     height: 100%;
 
 }
-body {
-    
-background: url("/images/background/shisharkasrednja.jpeg");
-background-attachment: fixed;
-background-position: left top;
-   opacity: 0.9;
-   background-repeat: no-repeat;
-}
 
-/*
 #bug-fix {
-   background: url("/images/background/shisharkasrednja.jpeg");
+   background: url("/images/background/shisharka1.jpg");
+   background-repeat: no-repeat;
    opacity: 0.9;
    width: 100%;
-  height: 1500px;
+ /* height: 1500px; */
   position: fixed;
   z-index: -1;
   top: -100px;
   bottom: -100px;
+
 }
-*/
+
 
  .container {
-     
+     z-index: 9;
         width: 90%;
     }
 
@@ -483,13 +476,7 @@ label {
 
 @media (min-width: 768px) {
 
-    body {
-   background: url("/images/background/shisharka.jpeg");
-   background-attachment: fixed;
-background-position: left top;
-   opacity: 0.9;
-   background-repeat: no-repeat;
-    }
+
 
  #about {
    //  margin-bottom: 200px;
@@ -658,13 +645,7 @@ background-position: left top;
     }
 
 @media (min-width: 1600px) {
-    body {
-   background: url("/images/background/shisharka3.jpg");
-   background-attachment: fixed;
-background-position: left top;
-   opacity: 0.9;
-   background-repeat: no-repeat;
-    }
+ 
 }
 
 @media (min-width: 1920px) {
